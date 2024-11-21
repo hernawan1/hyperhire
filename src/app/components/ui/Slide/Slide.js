@@ -58,7 +58,7 @@ export const data = [
 export default function ResponsiveCarousel(props) {
   const ref = React.useRef();
   return (
-    <div style={{ width: "100%", position: "relative" }}>
+    <div style={{ width: "80%", position: "relative" }}>
       <ResponsiveContainer
         carouselRef={ref}
         render={(parentWidth, carouselRef) => {

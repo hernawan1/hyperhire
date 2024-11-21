@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] w-full min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-r from-[#26C2B9] to-[#288BE7]">
       <main className="flex flex-col gap-4 sm:items-start">
-        <div className="flex gap-4 flex-col sm:flex-row">
+        <div className="flex gap-3 flex-col sm:flex-row">
           <div className="grid grid-rows-1">
             <div className="columns-2">
               <div className="grid grid-rows-1 gap-2">
