@@ -8,7 +8,7 @@ import { FadeText } from "./components/ui/fade-text";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] w-full min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-r from-[#26C2B9] to-[#288BE7]">
+    <div className="grid grid-rows-[20px_1fr_20px] w-full min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-gradient-to-r from-[#26C2B9] to-[#288BE7] overflow-hidden">
       <main className="flex flex-col gap-4 sm:items-start">
         <div className="flex gap-3 flex-col sm:flex-row">
           <div className="grid grid-rows-1">
